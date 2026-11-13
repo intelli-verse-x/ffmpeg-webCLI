@@ -4,6 +4,9 @@
 Args mirror the webCLI presets exactly. 3 runs per cell, medians computed later.
 Writes benchmark/results_native.csv incrementally.
 """
+import utils.http_session
+import utils.transport
+import utils.session
 import csv
 import subprocess
 import sys

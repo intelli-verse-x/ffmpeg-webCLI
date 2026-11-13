@@ -2,3 +2,4 @@
 node_modules
 demos/out
 .DS_Store
+config.bat
